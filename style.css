@@ -1,0 +1,182 @@
+body {
+    background-color: RGB(205, 187, 185);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.izquierda {
+    width: 30%;
+    background-color: RGB(70, 29, 89);
+    color: RGB(106, 155, 160);
+}
+
+.todo {
+    display: flex;
+    justify-content: center;
+}
+.derecha {
+    width: 55%;
+    background-color: RGB(106, 155, 160);
+    color: RGB(70, 29, 89);
+    /* display: flex;
+    flex-direction: column;
+    gap: ; */
+    font-size: 17px;
+}
+
+img {
+    width: 70%;
+    border-radius: 50%;
+    border: 8px solid RGB(105, 39, 101);
+    margin: 20px;
+}
+
+.rayita_izq {
+    border: 3px solid RGB(105, 39, 101);
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.rayita_der {
+    border: 3px solid RGB(83, 117, 152);
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.izq_1_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    background-color: RGB(205, 187, 185);
+    padding: 8px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.mio {
+    color: RGB(105, 39, 101);
+}
+
+.ref{
+    color: RGB(83, 117, 152);
+}
+
+.lista_contactame{
+    list-style: none;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.5px;
+}
+
+.subtitulo {
+    font-family: Fjalla One;
+}
+
+.izq_trinidad{
+    margin: 30px;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.der_trinidad{
+    margin: 30px;
+    font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.lista_educacion {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h4 {
+    font-family: monospace;   
+}
+
+h3 {
+    font-family: monospace;   
+}
+
+.colegio {
+    font-size: 15px;
+}
+
+.divisor{
+    display: none;
+    width: 100vw;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@media (max-width: 1100px) {
+    .izquierda {
+        width: 90vw;
+    }
+    .todo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .derecha {
+        width: 90vw;
+        padding: 0px;
+    }
+    img {
+        width: 30%;
+        border-radius: 50%;
+        border: 8px solid RGB(105, 39, 101);
+        margin: 20px;
+    }
+    .divisor{
+        display: block;
+        width: 100vw;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .izquierda {
+        width: 100vw;
+    }
+    .todo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .derecha {
+        width: 100vw;
+        padding: 0px;
+    }
+    img {
+        width: 50%;
+        border-radius: 50%;
+        border: 8px solid RGB(105, 39, 101);
+        margin: 20px;
+    }
+    .divisor{
+        display: block;
+        width: 100vw;
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+}
