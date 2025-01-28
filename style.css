@@ -165,6 +165,18 @@ h3 {
     background-color: rgb(205, 187, 185);
 }
 
+#change_color {
+    display: none;
+}
+
+#cc_icon{
+    position: absolute;
+    height: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 1020px) {
     .izquierda {
         width: 700px;
